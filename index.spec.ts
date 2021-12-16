@@ -1,7 +1,7 @@
 import * as library from "./index"
 
 describe("library", () => {
-	it("a", => {
-		expect(a).toEqual(42)
+	it("a", () => {
+		expect(library.a).toEqual(42)
 	})
 })
