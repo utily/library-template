@@ -12,6 +12,7 @@
 	"private": false,
 	"main": "dist/index.js",
 	"typings": "dist/index.d.ts",
+	"type": "module",
 	"git": {
 		"tagName": "v${version}"
 	},
@@ -55,17 +56,17 @@
 		"clean": "rimraf dist node_modules coverage"
 	},
 	"devDependencies": {
-		"@types/jest": "^27.0.3",
-		"@typescript-eslint/eslint-plugin": "5.8.0",
-		"@typescript-eslint/parser": "5.8.0",
-		"eslint": "^7.32.0",
-		"eslint-plugin-prettierx": "github:utily/eslint-plugin-prettierx#utily-20211221",
+		"@types/jest": "^27.4.1",
+		"@typescript-eslint/eslint-plugin": "5.16.0",
+		"@typescript-eslint/parser": "5.16.0",
+		"eslint": "^8.11.0",
+		"eslint-plugin-prettierx": "github:utily/eslint-plugin-prettierx#utily-20220306",
 		"eslint-plugin-simple-import-sort": "^7.0.0",
-		"jest": "^27.4.5",
+		"jest": "^27.5.1",
 		"prettierx": "github:utily/prettierx#utily-20211221",
 		"rimraf": "^3.0.2",
-		"ts-jest": "^27.1.2",
-		"typescript": "^4.5.4",
+		"ts-jest": "^27.1.3",
+		"typescript": "^4.6.2",
 		"watch": "^0.13.0"
 	}
 }
