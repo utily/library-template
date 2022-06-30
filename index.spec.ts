@@ -1,3 +1,4 @@
+import "jest"
 import * as library from "./index"
 
 describe("library", () => {

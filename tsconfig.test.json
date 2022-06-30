@@ -23,7 +23,8 @@
 			"*": [
 				"types/*"
 			]
-		}
+		},
+		"types": ["jest"]
 	},
 	"files": [
 		"index.ts"
