@@ -46,7 +46,6 @@
 		"testMatch": null
 	},
 	"scripts": {
-		"dev": "watch 'npm run build' .",
 		"lint": "eslint '**/*.{ts,tsx}'",
 		"fix": "eslint '**/*.{ts,tsx}' --fix",
 		"build": "tsc -p .",
