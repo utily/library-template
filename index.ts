@@ -1,1 +1,1 @@
-export const a = 42
+export * as library from "./library"
