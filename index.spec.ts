@@ -1,5 +1,4 @@
-import "jest"
-import * as library from "./index"
+import { library } from "./index"
 
 describe("library", () => {
 	it("a", () => {
