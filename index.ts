@@ -1,1 +1,3 @@
-export const a = 42
+export namespace library {
+	export const a = 42
+}
