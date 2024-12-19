@@ -44,9 +44,9 @@
 		"@typescript-eslint/eslint-plugin": "8.18.1",
 		"@typescript-eslint/parser": "8.18.1",
 		"eslint": "^8.56.0",
-		"eslint-plugin-prettierx": "github:utily/eslint-plugin-prettierx#utily-20240618",
+		"eslint-plugin-prettierx": "github:utily/eslint-plugin-prettierx#utily-20231004",
 		"eslint-plugin-simple-import-sort": "^12.1.1",
-		"prettierx": "github:utily/prettierx#utily-20240618",
+		"prettierx": "github:utily/prettierx#utily-20231004",
 		"rimraf": "^6.0.1",
 		"typescript": "5.7.2",
 		"vitest": "^2.1.8"
