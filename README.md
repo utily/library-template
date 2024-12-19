@@ -29,13 +29,16 @@ Test environment configuration. Some libraries might need to be included in this
 
 ### `tsconfig.json`
 Base configuration file. Contains configuration for building and running in test environment.
+If more types are added to the `"types"` field in here make sure to update the other tsconfig files as well.
 
 ---
 
 ### `tsconfig.mjs.json`
 Extends the base configuration file and excludes configuration related to the test environment.
+If more types are added to the `"types"` field in here make sure to update the other tsconfig files as well.
 
 ---
 
 ### `tsconfig.cjs.json`
 Extends the base configuration file and excludes configuration related to the test environment.
+If more types are added to the `"types"` field in here make sure to update the other tsconfig files as well.
