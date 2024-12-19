@@ -11,6 +11,8 @@
 	"homepage": "https://github.com/utily",
 	"private": false,
 	"type": "module",
+	"main": "./dist/cjs/index.js",
+	"module": "./dist/mjs/index.js",
 	"types": "./dist/types/index.d.ts",
 	"exports": {
 		".": {

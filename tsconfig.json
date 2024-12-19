@@ -33,6 +33,8 @@
 		"preserveConstEnums": true,
 		"forceConsistentCasingInFileNames": true,
 		"baseUrl": ".",
+		// Should include at least "node" and "vitest/globals". 
+		// If more types are added make sure to add them to `tsconfig.cjs.json` and `tsconfig.mjs.json` as well.
 		"types": [
 			"node",
 			"vitest/globals"
