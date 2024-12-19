@@ -10,8 +10,7 @@
 		"node_modules": true,
 		"*.code-workspace": true,
 		"*.config.ts": true,
-		"coverage": true,
-		"vite.config.ts": true
+		"coverage": true
 	},
 	"search.exclude": {
 		".*": false,
@@ -24,8 +23,7 @@
 		"node_modules": false,
 		"*.code-workspace": false,
 		"*.config.ts": false,
-		"coverage": false,
-		"vite.config.ts": false
+		"coverage": false
 	},
 	"files.insertFinalNewline": true,
 	"editor.tabSize": 2,
